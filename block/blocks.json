@@ -1,0 +1,230 @@
+[{
+  "type": "tp",
+  "message0": "传送 %1 到 %2",
+  "args0": [
+    {
+      "type": "input_value",
+      "name": "e"
+    },
+    {
+      "type": "input_value",
+      "name": "p"
+    }
+  ],
+  "inputsInline": true,
+  "previousStatement": null,
+  "nextStatement": null,
+  "colour": 230,
+  "tooltip": "",
+  "helpUrl": ""
+},
+{
+  "type": "entity",
+  "message0": "%1",
+  "args0": [
+    {
+      "type": "field_dropdown",
+      "name": "es",
+      "options": [
+        [
+          "所有玩家",
+          "@a"
+        ],
+        [
+          "所有实体",
+          "@e"
+        ],
+        [
+          "距离最近的玩家",
+          "@p"
+        ],
+        [
+          "随机玩家",
+          "@r"
+        ],
+        [
+          "当前实体",
+          "@s"
+        ]
+      ]
+    }
+  ],
+  "inputsInline": true,
+  "output": null,
+  "colour": 230,
+  "tooltip": "",
+  "helpUrl": ""
+},
+{
+  "type": "pos",
+  "message0": "坐标 %1 %2 %3",
+  "args0": [
+    {
+      "type": "field_input",
+      "name": "x",
+      "text": "0"
+    },
+    {
+      "type": "field_input",
+      "name": "y",
+      "text": "0"
+    },
+    {
+      "type": "field_input",
+      "name": "z",
+      "text": "0"
+    }
+  ],
+  "inputsInline": true,
+  "output": null,
+  "colour": 230,
+  "tooltip": "",
+  "helpUrl": ""
+},
+{
+  "type": "player",
+  "message0": "玩家 %1",
+  "args0": [
+    {
+      "type": "field_input",
+      "name": "name",
+      "text": ""
+    }
+  ],
+  "inputsInline": true,
+  "output": null,
+  "colour": 230,
+  "tooltip": "",
+  "helpUrl": ""
+},
+{
+  "type": "path",
+  "message0": "%1 : %2",
+  "args0": [
+    {
+      "type": "field_input",
+      "name": "id",
+      "text": "minecraft"
+    },
+    {
+      "type": "field_input",
+      "name": "name",
+      "text": ""
+    }
+  ],
+  "inputsInline": true,
+  "output": null,
+  "colour": 230,
+  "tooltip": "",
+  "helpUrl": ""
+},
+{
+  "type": "kill",
+  "message0": "杀死 %1",
+  "args0": [
+    {
+      "type": "input_value",
+      "name": "e"
+    }
+  ],
+  "inputsInline": true,
+  "previousStatement": null,
+  "nextStatement": null,
+  "colour": 230,
+  "tooltip": "",
+  "helpUrl": ""
+},
+{
+  "type": "execute",
+  "message0": "execute %1 子命令 %2 执行 %3",
+  "args0": [
+    {
+      "type": "input_dummy"
+    },
+    {
+      "type": "input_value",
+      "name": "sub_command"
+    },
+    {
+      "type": "input_statement",
+      "name": "run_command"
+    }
+  ],
+  "inputsInline": false,
+  "previousStatement": null,
+  "nextStatement": null,
+  "colour": 230,
+  "tooltip": "",
+  "helpUrl": ""
+},
+{
+  "type": "time",
+  "message0": "%1 时间 %2",
+  "args0": [
+    {
+      "type": "field_dropdown",
+      "name": "mode",
+      "options": [
+        [
+          "设置",
+          "set"
+        ],
+        [
+          "增加",
+          "add"
+        ]
+      ]
+    },
+    {
+      "type": "field_input",
+      "name": "time",
+      "text": "6000"
+    }
+  ],
+  "inputsInline": true,
+  "previousStatement": null,
+  "nextStatement": null,
+  "colour": 230,
+  "tooltip": "",
+  "helpUrl": ""
+},
+{
+  "type": "sub_command",
+  "message0": "子命令 %1 %2",
+  "args0": [
+    {
+      "type": "field_input",
+      "name": "sub_command",
+      "text": ""
+    },
+    {
+      "type": "input_value",
+      "name": "more"
+    }
+  ],
+  "inputsInline": false,
+  "output": null,
+  "colour": 230,
+  "tooltip": "",
+  "helpUrl": ""
+},
+{
+  "type": "selector",
+  "message0": "更多选择 %1 [ %2 ]",
+  "args0": [
+    {
+      "type": "input_value",
+      "name": "e"
+    },
+    {
+      "type": "field_input",
+      "name": "selector",
+      "text": "type=item"
+    }
+  ],
+  "inputsInline": true,
+  "output": null,
+  "colour": 230,
+  "tooltip": "",
+  "helpUrl": ""
+}]

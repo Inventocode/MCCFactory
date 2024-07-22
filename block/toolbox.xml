@@ -1,0 +1,52 @@
+<xml xmlns="https://developers.google.com/blockly/xml" id="toolbox" style="display: none">
+<category name="目标选择器">
+<block type="entity">
+<field name="es">@a</field>
+</block>
+<block type="player">
+<field name="name"/>
+</block>
+<block type="selector">
+<field name="selector">type=item</field>
+<value name="e">
+<shadow type="entity">
+<field name="es">@a</field>
+</shadow>
+</value>
+</block>
+</category>
+<category name="命令">
+<block type="tp">
+<value name="e">
+<shadow type="entity">
+<field name="es">@a</field>
+</shadow>
+</value>
+<value name="p">
+<shadow type="pos">
+<field name="x">0</field>
+<field name="y">0</field>
+<field name="z">0</field>
+</shadow>
+</value>
+</block>
+<block type="kill">
+<value name="e">
+<shadow type="entity">
+<field name="es">@a</field>
+</shadow>
+</value>
+</block>
+<block type="time">
+<field name="mode">set</field>
+<field name="time">6000</field>
+</block>
+<block type="execute">
+<value name="sub_command">
+<shadow type="sub_command">
+<field name="sub_command"/>
+</shadow>
+</value>
+</block>
+</category>
+</xml>
